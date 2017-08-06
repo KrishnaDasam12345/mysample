@@ -1,0 +1,27 @@
+<h1>Demo#Hello</h1>
+<p>This text is from Hello Template</p>
+
+<% @array.each do |k| %>
+	<%= k %> 
+	<br/>
+<% end %>
+
+<br/>
+
+<a href="/demo/index">Index Page 1</a><br/>
+<%= link_to('Index Page 2',{:controller => 'demo',:action => 'index'}) %><br/> 
+
+
+ID 1:<%= params[:id] %><br/> 
+ID 2:<%= @id %><br/> 
+
+Page 1:<%= params[:page] %>
+<br/> 
+
+Page 2:<%= @page %><br/>
+
+Next Page:<%= @page+1 %><br/>
+<hr>
+<%= params.inspect %>
+
+

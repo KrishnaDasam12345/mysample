@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  localhost: localhost
+  port: 5432
+  username: krishna
+  password: postgres
+  database: sample_db
