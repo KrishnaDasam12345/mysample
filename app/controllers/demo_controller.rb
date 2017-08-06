@@ -13,7 +13,7 @@ class DemoController < ApplicationController
   	@array = [1,2,3,4,5]
   	@id = params[:id]
   	@page = params[:page].to_i
-    @u = [2]
+    @u = [2,4]
   end
 
   def other_hello
